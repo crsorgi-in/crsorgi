@@ -290,7 +290,7 @@ document.onkeydown = function(e) {
                           <table id="printCertificationForm">
                             <tr>
                               <td>
-                                <table class="certificate-border-normal" border="0" cellpadding="0" cellspacing="0"
+                                <table class="certificate-border-normal" style="border: 1.5px solid #636363;" border="0" cellpadding="0" cellspacing="0"
                                   width="800">
                                   <tbody>
                                     <tr>
@@ -299,13 +299,13 @@ document.onkeydown = function(e) {
                                     <tr>
                                       <td>&nbsp;</td>
                                       <td>
-                                        <table class="certificate-border-bold" border="0" cellpadding="0"
+                                        <table class="certificate-border-bold" style="border: 3px solid #636363;" border="0" cellpadding="0"
                                           cellspacing="0" width="831">
                                           <tbody>
                                             <tr>
                                               <td valign="top" width="588">
-                                                <table class="certificate-border-bold" border="0" cellpadding="0"
-                                                  cellspacing="0" width="831" style="text-transform:uppercase">
+                                                <table class="certificate-border-bold"  border="0" cellpadding="0"
+                                                  cellspacing="0" width="831" style="text-transform:uppercase; border: 3px solid #636363;">
                                                   <tbody>
 
                                                     <tr>
@@ -370,7 +370,7 @@ document.onkeydown = function(e) {
                                                       <td class="text-line-height normal-text" align="center"
                                                         valign="top" class="lable-text">
 
-                                                        <span lang="hi">
+                                                        <span lang="hi" class="lable-text">
                                                           পশ্চিমবঙ্গ সরকার
                                                         </span>
                                                         <br />
@@ -952,6 +952,35 @@ document.onkeydown = function(e) {
       </td>
     </tr>
     <!--END FROM HERE TO BI-LINGUAL CERTIFICATE ONLY 31-DECE-2014 BY PAWAN-->
+    <script>
+      window.onbeforeprint = function() {
+        // Change color before printing for elements with class 'lable-text'
+        var labelElements = document.querySelectorAll('.lable-text');
+        labelElements.forEach(function(element) {
+          element.style.color = '#000066';
+        });
+  
+        // Change color before printing for elements with class 'certificate-title'
+        var titleElements = document.querySelectorAll('.certificate-title');
+        titleElements.forEach(function(element) {
+          element.style.color = '#003300';
+        });
+      }
+  
+      window.onafterprint = function() {
+        // Change color back after printing for elements with class 'lable-text'
+        var labelElements = document.querySelectorAll('.lable-text');
+        labelElements.forEach(function(element) {
+          element.style.color = '#000000';
+        });
+  
+        // Change color back after printing for elements with class 'certificate-title'
+        var titleElements = document.querySelectorAll('.certificate-title');
+        titleElements.forEach(function(element) {
+          element.style.color = '#000000';
+        });
+      }
+    </script>
 
   </table>
 </body>
