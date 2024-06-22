@@ -1,7 +1,7 @@
 {
     "redirects": [
       {
-        "source": "https://crsorgi-in.vercel.app/web/auth/birthCertificate/view/cert/gpdh/GPch1ualE3ZXVanyaS3lYN1.html",
+        "source": "/web/auth/birthCertificate/view/cert/gpdh/GPch1ualE3ZXVanyaS3lYN1.html",
         "destination": "https://ds-crsorgi.netlify.app/verifycertificate?id=880929",
         "permanent": true
       },
