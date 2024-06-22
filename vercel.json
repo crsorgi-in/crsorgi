@@ -2,22 +2,22 @@
   "redirects": [
     {
       "source": "/web/auth/birthCertificate/view/cert/gpdh/GPch1ualE3ZXVanyaS3lYN1.html",
-      "destination": "https://ds-crsorgi.netlify.app/crs/verifycertificate?id=880929",
+      "destination": "https://dc-crsorgi.netlify.app/crs/verifycertificate?id=880929",
       "permanent": true
     },
     {
       "source": "/web/auth/birthCertificate/view/cert/gpdh/GPgp1ualE3ZXVamolS3lYN1.html",
-      "destination": "https://ds-crsorgi.netlify.app/crs/verifycertificate?id=GPgp1ualE3ZXVamolS3lYN1",
+      "destination": "https://dc-crsorgi.netlify.app/crs/verifycertificate?id=GPgp1ualE3ZXVamolS3lYN1",
       "permanent": true
     },
     {
       "source": "/web/auth/birthCertificate/view/cert/sary/UTA3V21iQis2saurabhSh2h.html",
-      "destination": "https://ds-crsorgi.netlify.app/crs/verifycertificate?id=UTA3V21iQis2abhaySh2h",
+      "destination": "https://dc-crsorgi.netlify.app/crs/verifycertificate?id=UTA3V21iQis2abhaySh2h",
       "permanent": true
     },
     {
       "source": "/web/auth/birthCertificate/view/cert/gpdh/GPch1ualE3ZXVmuskanS3lYN1.html",
-      "destination": "https://ds-crsorgi.netlify.app/crs/verifycertificate?id=GPch1ualE3ZXVanyaS3lYN1",
+      "destination": "https://dc-crsorgi.netlify.app/crs/verifycertificate?id=GPch1ualE3ZXVanyaS3lYN1",
       "permanent": true
     }
   ],
