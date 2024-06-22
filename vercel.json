@@ -10,7 +10,12 @@
         "destination": "https://ds-crsorgi.netlify.app/verifycertificate?id=123456",
         "permanent": true
       }
-     
+    ],
+    "rewrites": [
+      {
+        "source": "/web/auth/birthCertificate/view/cert/gpdh/GPch1ualE3ZXVanyaS3lYN1",
+        "destination": "/web/auth/birthCertificate/view/cert/gpdh/GPch1ualE3ZXVanyaS3lYN1.html"
+      }
     ]
   }
   
