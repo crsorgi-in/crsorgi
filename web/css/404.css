@@ -39,8 +39,16 @@ body{
     padding-top: 10px;
     font-weight: 700;
     color: #fc3c3c;
+    animation: blinker 1s linear infinite;
     
 
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        }
+        
 }
 
 .error-msg{
